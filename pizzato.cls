@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{pizzato}[2016/10/09 Modelo de Relatório ENG04404]
-\LoadClass[10pt,twocolumn,a4paper]{article}
+\ProvidesClass{pizzato}[2016/10/09 Modelo de Relatório ENG04404 v1.0]
+\LoadClass[twocolumn,a4paper]{article}
 
 \RequirePackage[utf8]{inputenc} % ajusta codificação para utilização de caracteres acentuados
 \RequirePackage[T1]{fontenc}
