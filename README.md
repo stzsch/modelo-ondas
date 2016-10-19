@@ -22,6 +22,9 @@ Como pode-se observar no pdf gerado, se comparado ao pdf do modelo provido pelo 
 
 3. Incluir comentários no modelo de exemplo.
 
+4. Ajustar formato de referências com o pacote cite.
+
+5. Remover numeração de páginas.
 
 
 
