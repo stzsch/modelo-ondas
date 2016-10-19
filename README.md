@@ -26,5 +26,7 @@ Como pode-se observar no pdf gerado, se comparado ao pdf do modelo provido pelo 
 
 5. Remover numeração de páginas.
 
+6. Mudança para bibtex.
+
 
 
