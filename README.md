@@ -1,4 +1,4 @@
-# modelo-ondas-pizzato
+# modelo-latex-eng04404
 Modelo de relatório para ENG04404 Ondas Eletromagnéticas, criado para facilitar a utilização do LaTeX na criação de relatórios na cadeira
 
 ## Diferenças
