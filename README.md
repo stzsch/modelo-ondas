@@ -1,4 +1,4 @@
-# modelo-ondas-pizzato
+# modelo-latex-eng04404
 Modelo de relatório para ENG04404 Ondas Eletromagnéticas, criado para facilitar a utilização do LaTeX na criação de relatórios na cadeira
 
 ## Diferenças
@@ -8,20 +8,24 @@ Como pode-se observar no pdf gerado, se comparado ao pdf do modelo provido pelo 
 
 2. A utilização do ambiente {thebibliography} cria uma seção entitulada "Referências" (com o pacote [brazil]{babel}), ao contrário de "Referências Bibliográficas" utilizadas no modelo original.
 
-3. Referências utilizam o formato de citação com colchetes ao invés de sobrescritos.
+3. ~~Referências utilizam o formato de citação com colchetes ao invés de sobrescritos.~~
 
-4. As url criadas com o pacote {hyperref} diferem dos hyperlinks criados no Microsoft Word no que diz respeito à tipografia.
+4. ~~As url criadas com o pacote {hyperref} diferem dos hyperlinks criados no Microsoft Word no que diz respeito à tipografia.~~
 
-5. Imagens aparecem distorcidas, embora o motivo deva ser o escalonamento utilizado em uma imagem *.png extraída do modelo *.doc. Utilizando uma imagem *.pdf, *.eps ou até mesmo um *.png gerado de um programa, isto não deve ocorrer.
 
 ## To-dos
 
-1. Descobrir se há pacotes redundantes na classe
+1. ~~Descobrir se há pacotes redundantes na classe~~
 
-2. Comentar os pacotes utilizados
+2. ~~Comentar os pacotes utilizados~~
 
 3. Incluir comentários no modelo de exemplo.
 
+4. ~~Ajustar formato de referências com o pacote cite.~~
+
+5. ~~Remover numeração de páginas.~~
+
+6. Mudança para bibtex.
 
 
 
