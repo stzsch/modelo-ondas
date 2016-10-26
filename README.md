@@ -16,15 +16,15 @@ Como pode-se observar no pdf gerado, se comparado ao pdf do modelo provido pelo 
 
 ## To-dos
 
-1. Descobrir se há pacotes redundantes na classe
+1. ~~Descobrir se há pacotes redundantes na classe~~
 
-2. Comentar os pacotes utilizados
+2. ~~Comentar os pacotes utilizados~~
 
 3. Incluir comentários no modelo de exemplo.
 
-4. Ajustar formato de referências com o pacote cite.
+4. ~~Ajustar formato de referências com o pacote cite.~~
 
-5. Remover numeração de páginas.
+5. ~~Remover numeração de páginas.~~
 
 6. Mudança para bibtex.
 

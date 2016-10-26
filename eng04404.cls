@@ -1,40 +1,46 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{eng04404}[2016/10/09 Modelo de Relatório ENG04404 v1.0]
+\ProvidesClass{eng04404}[2016/10/25 Modelo de Relatório ENG04404 v1.1]
 \LoadClass[twocolumn,a4paper]{article}
 
-\RequirePackage[utf8]{inputenc} % ajusta codificação para utilização de caracteres acentuados
-\RequirePackage[T1]{fontenc}
+\RequirePackage[T1]{fontenc} % hifenização
+\RequirePackage[utf8]{inputenc} % caracteres acentuados
 \RequirePackage[brazil]{babel} % determina linguagem
 
-\RequirePackage{amsmath}
+\RequirePackage{amsmath} % símbolos e ambientes matemáticos
 
-\RequirePackage{graphicx} %
-\RequirePackage{caption}
-\RequirePackage{float}
+\RequirePackage{graphicx} % inserção de figuras
+\RequirePackage{float} % utilização do parâmetro [H] para figuras e tabelas
 
-\RequirePackage{ragged2e}
-\RequirePackage{hhline}
-\RequirePackage{array} % para coluna centrada e com tamanho definido em tabelas
-\setlength{\tabcolsep}{0.5cm}
+% \RequirePackage{ragged2e} % alinhamento em tabelas
+\RequirePackage{hhline} % linha horizontal dupla em tabelas
+\RequirePackage{array} % coluna centrada e com tamanho definido em tabelas
+\setlength{\tabcolsep}{0.5cm} % tamanho de coluna em tabelas
 
-\RequirePackage{geometry}
-\geometry{verbose,a4paper,tmargin=20mm,bmargin=30mm,lmargin=25mm,rmargin=25mm}
+\RequirePackage{geometry} % ajuste de margens
+\geometry{verbose,a4paper,tmargin=20mm,bmargin=30mm,lmargin=25mm,rmargin=25mm} % valores de margem
 
-\RequirePackage{indentfirst}
-\setlength{\parindent}{0.8cm}
-\pagenumbering{gobble}
+\RequirePackage{indentfirst} % sempre identar parágrafos
+\setlength{\parindent}{0.8cm} % tamanho de identação
+\pagenumbering{gobble} % remover numeração de páginas
 
+\RequirePackage[superscript,biblabel]{cite} % citação com superscript
+\RequirePackage[pdftex]{hyperref} % links
+\urlstyle{same}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = blue, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  pdfborderstyle={/S/U/W 1}% border style will be underline of width 1pt
+}
 
-\RequirePackage[superscript,biblabel]{cite}
-\RequirePackage[pdftex]{hyperref}
 
 \renewcommand\section{\@startsection {section}{1}{\z@}%
-                                   {-3.5ex \@plus -1ex \@minus -.2ex}%
+                                   {-2.0ex \@plus -1ex \@minus -.2ex}%
                                    {1.0ex \@plus.2ex}%
                                    {\normalfont \large \bfseries}}
 
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
-                                     {-3.25ex\@plus -1ex \@minus -.2ex}%
+                                     {-1.5ex\@plus -1ex \@minus -.2ex}%
                                      {0.5ex \@plus .2ex}%
                                      {\normalfont\normalsize\bfseries}}
 
