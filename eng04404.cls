@@ -29,8 +29,7 @@
 \hypersetup{
   colorlinks   = true, %Colours links instead of ugly boxes
   urlcolor     = blue, %Colour for external hyperlinks
-  linkcolor    = blue, %Colour of internal links
-  pdfborderstyle={/S/U/W 1}% border style will be underline of width 1pt
+  linkcolor    = black, %Colour of internal links
 }
 
 
