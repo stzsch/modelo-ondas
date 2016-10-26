@@ -17,11 +17,16 @@
 \RequirePackage{array} % para coluna centrada e com tamanho definido em tabelas
 \setlength{\tabcolsep}{0.5cm}
 
-\usepackage{geometry}
+\RequirePackage{geometry}
 \geometry{verbose,a4paper,tmargin=20mm,bmargin=30mm,lmargin=25mm,rmargin=25mm}
 
 \RequirePackage{indentfirst}
 \setlength{\parindent}{0.8cm}
+\pagenumbering{gobble}
+
+
+\RequirePackage[superscript,biblabel]{cite}
+\RequirePackage[pdftex]{hyperref}
 
 \renewcommand\section{\@startsection {section}{1}{\z@}%
                                    {-3.5ex \@plus -1ex \@minus -.2ex}%
@@ -32,8 +37,6 @@
                                      {-3.25ex\@plus -1ex \@minus -.2ex}%
                                      {0.5ex \@plus .2ex}%
                                      {\normalfont\normalsize\bfseries}}
-
-\RequirePackage[pdftex]{hyperref}
 
 \let\@cartao\@empty
 \let\@email\@empty
